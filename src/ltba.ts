@@ -66,8 +66,6 @@ fs.exists(targetFileName, exists => {
 
       let jsonBody = JSON.parse(data.toString()) as LeshyJsonTPArray;
 
-      console.log(`frame count ${jsonBody.frames.length}`)
-
       let frameAtlas: FrameMap = {};
       jsonBody.frames.forEach(frame => {
         frameAtlas[frame.filename] = {
