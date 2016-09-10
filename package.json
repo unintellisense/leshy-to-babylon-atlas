@@ -1,0 +1,17 @@
+{
+  "name": "leshy-to-babylon-atlas",
+  "version": "1.0.0",
+  "description": "utility to convert 'JSON-TP-Hash' files generated from https://www.leshylabs.com/apps/sstool/ to the expected format for https://github.com/andyhall/babylon-atlas/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unintellisense/leshy-to-babylon-atlas.git"
+  },
+  "author": "Mike Weldon",
+  "license": "WTFPL",
+  "bin":{
+    "ltba":"./bin/ltba.js"
+  },
+  "engines": {
+    "node": ">= 4.x.x"
+  }
+}
