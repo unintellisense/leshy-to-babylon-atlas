@@ -20,7 +20,6 @@ fs.exists(targetFileName, function (exists) {
             return exitWithError(err.message);
         try {
             var jsonBody = JSON.parse(data.toString());
-            console.log("frame count " + jsonBody.frames.length);
             var frameAtlas_1 = {};
             jsonBody.frames.forEach(function (frame) {
                 frameAtlas_1[frame.filename] = {
